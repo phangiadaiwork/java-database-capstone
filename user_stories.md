@@ -15,7 +15,9 @@ _As an admin, I want to log into the portal with my username and password, so th
 5. Session is established for authenticated admin
 
 **Priority:** High
+
 **Story Points:** 3
+
 **Notes:**
 - Implement secure password hashing
 - Consider session timeout mechanisms
@@ -34,7 +36,9 @@ _As an admin, I want to log out of the portal, so that I can protect system acce
 5. Browser back button cannot access admin pages after logout
 
 **Priority:** High
+
 **Story Points:** 2
+
 **Notes:**
 - Clear all session data on logout
 - Ensure proper session invalidation
@@ -53,7 +57,9 @@ _As an admin, I want to add doctors to the portal, so that they can provide medi
 5. New doctor receives login credentials to access their dashboard
 
 **Priority:** High
+
 **Story Points:** 5
+
 **Notes:**
 - Include fields: name, specialization, contact info, license number
 - Generate secure default password for new doctors
@@ -72,7 +78,9 @@ _As an admin, I want to delete a doctor's profile from the portal, so that I can
 5. Associated appointments are handled appropriately (cancelled/reassigned)
 
 **Priority:** Medium
+
 **Story Points:** 4
+
 **Notes:**
 - Consider soft delete vs hard delete
 - Handle existing appointments and patient relationships
@@ -91,7 +99,9 @@ _As an admin, I want to run a stored procedure in MySQL CLI to get the number of
 5. Output is formatted for easy reading and analysis
 
 **Priority:** Low
+
 **Story Points:** 3
+
 **Notes:**
 - Consider creating a web interface for this report
 - Include parameters for date range selection
@@ -113,7 +123,9 @@ _As a patient, I want to view a list of doctors without logging in, so that I ca
 5. Call-to-action prompts visitors to register for booking
 
 **Priority:** Medium
+
 **Story Points:** 3
+
 **Notes:**
 - Display only public information
 - Include doctor availability status
@@ -132,7 +144,9 @@ _As a patient, I want to sign up using my email and password, so that I can book
 5. Successful registration creates patient profile and enables login
 
 **Priority:** High
+
 **Story Points:** 4
+
 **Notes:**
 - Implement email verification workflow
 - Include terms of service acceptance
@@ -151,7 +165,9 @@ _As a patient, I want to log into the portal, so that I can manage my bookings._
 5. "Forgot password" option is available
 
 **Priority:** High
+
 **Story Points:** 3
+
 **Notes:**
 - Implement password reset functionality
 - Consider "Remember me" option
@@ -170,7 +186,9 @@ _As a patient, I want to log out of the portal, so that I can secure my account.
 5. Browser back button cannot access patient pages after logout
 
 **Priority:** High
+
 **Story Points:** 2
+
 **Notes:**
 - Clear all session data on logout
 - Ensure proper session invalidation
@@ -189,7 +207,9 @@ _As a patient, I want to log in and book an hour-long appointment, so that I can
 5. Booking confirmation is displayed and sent via email
 
 **Priority:** High
+
 **Story Points:** 5
+
 **Notes:**
 - Prevent double-booking of time slots
 - Include appointment cancellation policy
@@ -208,7 +228,9 @@ _As a patient, I want to view my upcoming appointments, so that I can prepare ac
 5. Patient can access appointment details and preparation instructions
 
 **Priority:** Medium
+
 **Story Points:** 3
+
 **Notes:**
 - Include reminder notifications
 - Add option to reschedule appointments
@@ -229,7 +251,9 @@ _As a doctor, I want to log into the portal, so that I can manage my appointment
 5. Session is established for authenticated doctor
 
 **Priority:** High
+
 **Story Points:** 3
+
 **Notes:**
 - Use secure authentication method
 - Consider two-factor authentication
@@ -248,7 +272,9 @@ _As a doctor, I want to log out of the portal, so that I can protect my data._
 5. Browser back button cannot access doctor pages after logout
 
 **Priority:** High
+
 **Story Points:** 2
+
 **Notes:**
 - Ensure HIPAA compliance for data protection
 - Clear all cached patient information
@@ -267,7 +293,9 @@ _As a doctor, I want to view my appointment calendar, so that I can stay organiz
 5. Calendar synchronizes with appointment booking system
 
 **Priority:** High
+
 **Story Points:** 4
+
 **Notes:**
 - Include color coding for different appointment types
 - Allow easy navigation between date ranges
@@ -286,7 +314,9 @@ _As a doctor, I want to mark my unavailability, so that patients can only see av
 5. Unavailability changes are reflected immediately in booking system
 
 **Priority:** Medium
+
 **Story Points:** 4
+
 **Notes:**
 - Include vacation and holiday scheduling
 - Allow partial day unavailability
@@ -305,7 +335,9 @@ _As a doctor, I want to update my profile with specialization and contact inform
 5. Profile photo upload capability is available
 
 **Priority:** Medium
+
 **Story Points:** 3
+
 **Notes:**
 - Include professional credentials and certifications
 - Allow biography and education information
@@ -324,7 +356,9 @@ _As a doctor, I want to view patient details for upcoming appointments, so that 
 5. Access is logged for audit and compliance purposes
 
 **Priority:** High
+
 **Story Points:** 4
+
 **Notes:**
 - Ensure HIPAA compliance for patient data access
 - Include appointment history with previous doctors
