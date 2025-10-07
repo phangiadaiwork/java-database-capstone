@@ -262,7 +262,7 @@ _As a doctor, I want to log into the portal, so that I can manage my appointment
 ### User Story 13: Doctor Logout
 
 **Title:**
-_As a doctor, I want to log out of the portal, so that I can protect my data._
+_As a doctor, I want to log out of the portal, so that I can protect my data.
 
 **Acceptance Criteria:**
 1. Doctor can click logout button from any doctor page
