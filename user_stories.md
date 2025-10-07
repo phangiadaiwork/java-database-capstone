@@ -363,3 +363,4 @@ _As a doctor, I want to view patient details for upcoming appointments, so that 
 - Ensure HIPAA compliance for patient data access
 - Include appointment history with previous doctors
 - Add ability to view and update patient medical records
+
