@@ -1,12 +1,12 @@
 # Application Architecture Documentation
 
-## Section 1: Architecture Summary
+## Architecture Summary
 
 This Spring Boot application implements a hybrid architecture that combines traditional MVC patterns with modern REST API design. The application serves two distinct user interfaces: server-side rendered dashboards for Admin and Doctor users utilizing Thymeleaf templating, and client-side applications for Appointments and Patient interactions that consume JSON REST APIs. The backend employs a dual-database strategy to optimize data storage and retrieval—MySQL handles structured relational data for core entities like patients, doctors, appointments, and admin records, while MongoDB manages document-based prescription data that benefits from flexible schema requirements.
 
 The application follows a layered architecture pattern where all incoming requests, whether from Thymeleaf controllers or REST endpoints, are processed through a unified service layer. This service layer acts as the business logic hub and coordinates with the appropriate data access repositories. The data persistence layer is split between Spring Data JPA repositories for MySQL operations and MongoDB repositories for document storage, ensuring each database technology is utilized for its strengths while maintaining clean separation of concerns throughout the application stack.
 
-## Section 2: Numbered Flow of Data and Control
+## Numbered Flow of Data and Control
 
 1. **User Interface Access**: Users access either the AdminDashboard/DoctorDashboard (web pages) or Appointments/PatientDashboard modules (client applications).
 
